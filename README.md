@@ -54,6 +54,6 @@ I didn't cover the `.dockerignore` file, but basically it works just like a `.gi
 - [x] Skipped - consolidate instructions by using 3.12 for both apps
 - [x] add a comment about .dockerignore to instructions
 - [x] validate instructions
-- [ ] commit to github
+- [x] commit to github
 - [x] Add link to google slides 
 - [ ] send info to faris
