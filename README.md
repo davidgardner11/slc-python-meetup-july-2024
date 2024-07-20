@@ -8,14 +8,14 @@ This talk will explain what Docker is, why developers would want to containerize
 - a FastAPI server that returns json 
 
 ## Talk Slides
-https://docs.google.com/presentation/d/1N2zL_QdybmDZHZExydKP7ida5qZIqDF9Sz9X9WS69WA/edit?usp=sharing 
+https://docs.google.com/presentation/d/e/2PACX-1vT2ceINVuEUgAbog6BCAE1kdi9cnpsLTd2xmNHIVYQaG8J5L4iTVFc9jSRatMZggfbbAO-xsYlRrmUB/pub?start=false&loop=true&delayms=5000
 
 ## Demo
 
 ### Pre-requisites
 1. Install Docker Desktop (if installed)
 2. Install Python 3 (if not installed)
-3. clone the `July-2024-Docker-Meetup` repo to your machine
+3. clone this repo to your machine
 
 
 ### Demo1: Containerize a random movie picker python app
@@ -31,7 +31,7 @@ https://docs.google.com/presentation/d/1N2zL_QdybmDZHZExydKP7ida5qZIqDF9Sz9X9WS6
 9. Done! The movie picker app is now running inside a Docker container. 
 10. clean up by hitting `command-C` to stop the container and typing `deactivate` to end the virtual env python session
 
-### Demo2: Containerize a FastAPI python service 
+### Demo2: Containerize a FastAPI python server 
 1. cd into the `example2` directory
 2. set up a Python env running Python 3.12: `python3.12 -m venv .venv`
 (if you don't have python 3.9 already installed on your machine, you'll need to install it using your preferred package manager. I use homebrew, so I ran: `brew install python@3.12`)
@@ -49,11 +49,10 @@ https://docs.google.com/presentation/d/1N2zL_QdybmDZHZExydKP7ida5qZIqDF9Sz9X9WS6
 ### Notes
 I didn't cover the `.dockerignore` file, but basically it works just like a `.gitignore` file, except it tells Docker what to ignore when copying files from the local "source" directory (`.`) into the docker image "working" directory.
 
-### DG: Remaining steps
+### Remaining steps
 - [x] add .gitignore file 
-- [x] Skipped - consolidate instructions by using 3.12 for both apps
 - [x] add a comment about .dockerignore to instructions
 - [x] validate instructions
-- [x] commit to github
+- [x] commit to repo on github
 - [x] Add link to google slides 
-- [ ] send info to faris
+- [x] send info to faris
