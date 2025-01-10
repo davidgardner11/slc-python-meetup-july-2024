@@ -48,11 +48,3 @@ https://docs.google.com/presentation/d/e/2PACX-1vT2ceINVuEUgAbog6BCAE1kdi9cnpsLT
 
 ### Notes
 I didn't cover the `.dockerignore` file, but basically it works just like a `.gitignore` file, except it tells Docker what to ignore when copying files from the local "source" directory (`.`) into the docker image "working" directory.
-
-### Remaining steps
-- [x] add .gitignore file 
-- [x] add a comment about .dockerignore to instructions
-- [x] validate instructions
-- [x] commit to repo on github
-- [x] Add link to google slides 
-- [x] send info to faris
